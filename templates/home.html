@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h1>Home</h1>
+    <ul>
+        {% for pet in pets %}
+            <li>{{ pet }}<li>
+            <ul>
+                {% for news in pet.news.all %}
+                    <li>{{ news }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </ul>
+{% endblock content %}

@@ -1,0 +1,47 @@
+[
+    {
+        "pk": 1,
+        "model": "pets.Pet",
+        "fields": {
+            "name": "Toby"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "pets.Pet",
+        "fields": {
+            "name": "Luna"
+        }
+    },
+
+    {
+        "pk": 1,
+        "model": "pets.News",
+        "fields": {
+            "pet": 1,
+            "title": "I'm hungry",
+            "content": "I owner don't feed me =/",
+            "pub_date": "2014-02-07T20:25:38.395Z"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "pets.News",
+        "fields": {
+            "pet": 2,
+            "title": "wauuu",
+            "content": "I want to shout!",
+            "pub_date": "2012-09-07T20:25:38.395Z"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "pets.News",
+        "fields": {
+            "pet": 2,
+            "title": "Jajajaja",
+            "content": "I saw he fall down!",
+            "pub_date": "2012-10-07T20:25:38.395Z"
+        }
+    }
+]
